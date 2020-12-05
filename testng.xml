@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+
+<listener class-name="listners.listners"/>
+<listener class-name="report.ExtentReporterNG"/>
+
+</listeners>
+
+  <test name="CheckoutGuestCreditCard1" allow-return-values="true">
+    <classes>
+      <class name="frameworkdata.CheckoutGuestCreditCard1"/>
+    </classes>
+  </test> 
+  <test name="CheckoutRegisteredCreditCard1" allow-return-values="true">
+    <classes>
+      <class name="frameworkdata.CheckoutRegisteredCreditCard1"/>
+    </classes>
+  </test> 
+  <test name="CheckoutGuestGiftcard1t" allow-return-values="true">
+    <classes>
+      <class name="frameworkdata.CheckoutGuestGiftcard1"/>
+    </classes>
+  </test> 
+  <test name="CheckoutGuestPaypal1" allow-return-values="true">
+    <classes>
+      <class name="frameworkdata.CheckoutGuestPaypal1"/>
+    </classes>
+  </test> 
+  <test name="CheckoutRegisteredGiftCard1" allow-return-values="true">
+    <classes>
+      <class name="frameworkdata.CheckoutRegisteredGiftCard1"/>
+    </classes>
+  </test>
+   <test name="CheckoutRegisteredPayPal1" allow-return-values="true">
+    <classes>
+      <class name="frameworkdata.CheckoutRegisteredPayPal1"/>
+    </classes>
+  </test>  
+
+
+   
+      
+</suite> <!-- Suite -->
+

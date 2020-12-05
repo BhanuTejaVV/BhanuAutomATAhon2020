@@ -1,0 +1,7 @@
+10:08:56.018 [main] DEBUG frameworkdata.CheckoutGuestGiftcard1 - starting test
+10:16:18.322 [main] DEBUG frameworkdata.CheckoutGuestPaypal1 - starting test
+10:27:00.984 [main] DEBUG frameworkdata.CheckoutRegisteredGiftCard1 - starting test
+10:33:38.509 [main] DEBUG frameworkdata.CheckoutRegisteredPayPal1 - starting test
+11:26:46.056 [main] DEBUG frameworkdata.samplefile - starting test
+11:28:21.646 [main] DEBUG frameworkdata.samplefile - starting test
+11:30:58.959 [main] DEBUG frameworkdata.samplefile - starting test
